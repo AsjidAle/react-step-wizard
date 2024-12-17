@@ -252,9 +252,9 @@ StepWizard.defaultProps = {
 };
 
 export const Step = ({
-    children,
-    isActive,
-    transitions,
+    children = [],
+    isActive = false,
+    transitions = '',
 }) => (
     <div className={`${styles.step} ${transitions} ${isActive ? styles.active : ''}`.trim()}>
         { children }
@@ -268,9 +268,3 @@ if (process.env.NODE_ENV !== 'production') {
         transitions: PropTypes.string,
     };
 }
-
-Step.defaultProps = {
-    children: [],
-    isActive: false,
-    transitions: '',
-};
