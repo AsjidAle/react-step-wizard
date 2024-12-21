@@ -1,6 +1,6 @@
 {
   "name": "react-step-wizard-2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern flexible step wizard component built for React and default props issue resolved",
   "main": "dist/react-step-wizard.min.js",
   "typings": "dist/index.d.ts",
