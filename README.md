@@ -1,6 +1,6 @@
 # React Step Wizard
 
-A flexible multistep wizard built for React
+A flexible multistep wizard built for React free from default props issue
 
 [![npm version](https://badge.fury.io/js/react-step-wizard.svg)](https://badge.fury.io/js/react-step-wizard)
 
@@ -157,3 +157,5 @@ If we don't need to use hash keys and just simply want to switch steps by their 
 ```
 
 Now we can use `goToNamedStep` and set `stepName` as an argument
+
+Fixed the default Props feature that is no longer supported in react, credit goes to <a href='https://github.com/jcmcneal/react-step-wizard'>`Jason McNeal`</a> 

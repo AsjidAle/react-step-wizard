@@ -1,7 +1,7 @@
 {
   "name": "react-step-wizard",
-  "version": "5.3.11",
-  "description": "A modern flexible step wizard component built for React",
+  "version": "1.0.0",
+  "description": "A modern flexible step wizard component built for React and default props issue resolved",
   "main": "dist/react-step-wizard.min.js",
   "typings": "dist/index.d.ts",
   "scripts": {
@@ -25,7 +25,7 @@
     "wizard",
     "es6"
   ],
-  "author": "Jason McNeal <jaywizard@gmail.com>",
+  "author": "Asjid Ali <asjidale@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jcmcneal/react-step-wizard/issues"
