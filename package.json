@@ -10,7 +10,7 @@
     "build": "rollup --config rollup.config.js --environment NODE_ENV:production",
     "app:dev": "webpack-dev-server --open --mode='development' --hotOnly --config app/webpack.config.js",
     "app:build": "export NODE_ENV=production; webpack --progress --optimize-minimize --mode=production --config app/webpack.config.js",
-    "prepublishOnly": "rmdir /s /q ./dist && npm run build",
+    "prepublishOnly": "rimraf ./dist && npm run build",
     "test": "jest --config=jest.config.json",
     "lint": "eslint src/"
   },
