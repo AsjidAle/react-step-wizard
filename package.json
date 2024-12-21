@@ -10,7 +10,7 @@
     "build": "rollup --config rollup.config.js --environment NODE_ENV:production",
     "app:dev": "webpack-dev-server --open --mode='development' --hotOnly --config app/webpack.config.js",
     "app:build": "export NODE_ENV=production; webpack --progress --optimize-minimize --mode=production --config app/webpack.config.js",
-    "prepublishOnly": "rm -rf ./dist && npm run build",
+    "prepublishOnly": "rmdir /s /q ./dist && npm run build",
     "test": "jest --config=jest.config.json",
     "lint": "eslint src/"
   },
@@ -61,7 +61,8 @@
     "react-dom": "^16.12.0",
     "react-hot-loader": "^4.12.19",
     "react-test-renderer": "^16.12.0",
-    "rollup": "^1.31.1",
+    "rimraf": "^6.0.1",
+    "rollup": "^0.68.2",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-eslint": "^7.0.0",
