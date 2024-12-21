@@ -1,4 +1,4 @@
-# React Step Wizard
+# React Step Wizard 2
 
 A flexible multistep wizard built for React free from default props issue
 
