@@ -19,6 +19,7 @@
         "indent": [ "error", 4 ],
         "no-console": ["error", { "allow": ["error"] }],
         "no-continue": 0,
+        "linebreak-style": ["error", "windows"],
         "operator-linebreak": 0,
         "react/no-unescaped-entities": 0,
         "import/no-extraneous-dependencies": 0
