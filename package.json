@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcmcneal/react-step-wizard.git"
+    "url": "git+https://github.com/AsjidAle/react-step-wizard.git"
   },
   "keywords": [
     "react",
@@ -28,9 +28,9 @@
   "author": "Asjid Ali <asjidale@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jcmcneal/react-step-wizard/issues"
+    "url": "https://github.com/AsjidAle/react-step-wizard/issues"
   },
-  "homepage": "https://github.com/jcmcneal/react-step-wizard#readme",
+  "homepage": "https://github.com/AsjidAle/react-step-wizard#readme",
   "peerDependencies": {
     "react": ">=15.0.1"
   },
