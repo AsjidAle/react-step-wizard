@@ -2,8 +2,6 @@
 
 A flexible multistep wizard built for React free from default props issue
 
-[![npm version](https://badge.fury.io/js/react-step-wizard.svg)](https://badge.fury.io/js/react-step-wizard)
-
 ![What You Can Build](https://raw.githubusercontent.com/jcmcneal/react-step-wizard/master/example.gif)
 
 ### Try It Out!
@@ -17,13 +15,13 @@ If you've made something you're proud of with `react-step-wizard` and want to sh
 ### Install
 
 ```
-npm install react-step-wizard
+npm install react-step-wizard-2
 ```
 
 ### Import Component
 
 ```js
-import StepWizard from "react-step-wizard";
+import StepWizard from "react-step-wizard-2";
 ```
 
 ### JSX Syntax
